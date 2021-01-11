@@ -47,7 +47,7 @@ def winner(player_choice, AI_choice):
 def get_player_input():
     choice = ""
     while choice.lower() not in CHOICES:
-        choice = input("Do you pick rock, paper, or sissors?")
+        choice = input("Do you pick rock, paper, or scissors?")
     
     return choice.lower()
 
