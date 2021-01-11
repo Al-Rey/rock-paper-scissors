@@ -94,17 +94,19 @@ def play_game():
     print("Thanks for playing!")
 
 
+# Unit Testing
+# basically testing some parts of the program
+def unit_testing():
+    # test if the AI picking works
+    testAI = AI()
+    for i in range(1, 10):
+        testAI.pick()
+        print(testAI.getChoice())
+
+    # get player input
+    print(get_player_input()) 
+
 
 if __name__ == "__main__":
-    # TESTING------------------------
-    # test if the AI picking works
-    # testAI = AI()
-    # for i in range(1, 10):
-    #     testAI.pick()
-    #     print(testAI.getChoice())
-
-    # # get player input
-    # print(get_player_input())
-
     play_game()
 
