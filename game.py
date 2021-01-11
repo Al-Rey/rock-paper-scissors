@@ -1,3 +1,10 @@
+"""
+Author: Al-Rey
+Date: 1/11/2021
+Desc: A simple rock paper scissors game with the user playing against an AI
+"""
+
+
 import random as rand
 
 # Constants
@@ -89,6 +96,7 @@ def play_game():
 
 
 if __name__ == "__main__":
+    # TESTING------------------------
     # test if the AI picking works
     # testAI = AI()
     # for i in range(1, 10):
